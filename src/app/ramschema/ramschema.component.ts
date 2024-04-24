@@ -20,4 +20,6 @@ ngOnInit() {//använbder ngOnInit
     this.ramschemaList = data; //sätter ramscheamList till data
   })
 }
+
+
 }
