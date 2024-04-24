@@ -1,0 +1,34 @@
+
+
+<div id="allSchema">
+    <h1>Ramschema</h1>
+    <ul id="ul1">
+        <li id="headCode" >Kurskod</li>
+        <li id="headName">kursnamn</li>
+        <li id="headProgression">Progression</li>
+        <li id="headSyllabus">Kursplan</li>
+    </ul>
+<ul id="ul2" *ngFor="let schema of ramschemaList">
+    
+    <li  id="code">
+        {{schema.code}}
+    </li>
+    <li id="name" >
+        {{schema.coursename}}
+    </li>
+    <li id="progression" >
+        {{schema.progression}}
+    </li>
+    
+    <li id="syllabus">
+        <a href="{{schema.syllabus}}">Kursplan</a>
+    </li>
+</ul>
+
+
+
+
+
+</div>
+
+
