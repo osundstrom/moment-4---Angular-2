@@ -1,9 +1,7 @@
 
 
 <form>
-    <label for="sort"> Sök:</label>
 <input type="text"  name="searchText"  placeholder="Sök här" [(ngModel)]="searchText" (input)="sortSearch()">
-<label for="sort"> Sortera:  </label>
 <select name="sort" id="sortId" [(ngModel)]="sort" (change)="sortDrop()">  
     <option value="choose">Välj</option>
     <option value="code"> Kurskod</option>
@@ -14,33 +12,33 @@
 </form>
 
 <div id="allSchema" >
-    <ul id="ul1">
-        <li id="headCode" >Kurskod</li>
-        <li id="headName">kursnamn</li>
-        <li id="headProgression">Progression</li>
-        <li id="headSyllabus">Kursplan</li>
-    </ul>
-<ul id="ul2" *ngFor="let schema of ramschemaList">
+<table id="table1">
+    <tr>
+        <td id="headCode">Kurskod</td>
+        <td id="headName">Kursnamn</td>
+        <td id="headProgression">Progression</td>
+        <td id="headSyllabus">Kursplan</td>
+    </tr>
+</table>
+
+    <table id="table2">
+<tr *ngFor="let schema of ramschemaList">
     
-    <li  id="code">
+    <td  id="code">
         {{schema.code}}
-    </li>
-    <li id="name" >
+    </td>
+    <td id="name" >
         {{schema.coursename}}
-    </li>
-    <li id="progression" >
+    </td>
+    <td id="progression" >
         {{schema.progression}}
-    </li>
+    </td>
     
-    <li id="syllabus">
-        <a href="{{schema.syllabus}}">Kursplan</a>
-    </li>
-</ul>
-
-
-
-
-
+    <td id="syllabus">
+        <a href="{{schema.syllabus}}">Länk</a>
+    </td>
+</tr>
+</table>
 </div>
 
 

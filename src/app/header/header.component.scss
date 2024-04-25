@@ -15,3 +15,27 @@ header{
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000;
     }
 }
+
+
+@media screen and (max-width: 1023px) {
+
+    header{
+        background-image: url(/assets/images/backheaderfooter.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 106vw;
+        height: 7vh;
+        margin-top: -3vh;
+        margin-left: -3vw;
+        position: relative;
+        h1{
+            padding-top: 2.5vh;
+            font-size: 140%;
+           text-align: center;
+            color: white;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000;
+        }
+    }
+
+}
