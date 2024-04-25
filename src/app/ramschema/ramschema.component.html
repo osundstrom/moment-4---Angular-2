@@ -2,17 +2,18 @@
 
 <form>
     <label for="sort"> Sök:</label>
-<input type="text"  name="searchText"  placeholder="Sök här">
+<input type="text"  name="searchText"  placeholder="Sök här" [(ngModel)]="searchText" (input)="sortSearch()">
 <label for="sort"> Sortera:  </label>
-<select name="sort" id="sortId" >  
+<select name="sort" id="sortId" [(ngModel)]="sort" (change)="sortDrop()">  
     <option value="choose">Välj</option>
     <option value="code"> Kurskod</option>
     <option value="coursename"> Kursnamn</option>
     <option value="progression"> Progression</option>
 </select>
+<!--<p *ngIf="!ramschemaList.length" id="unvalid">Ogiltig text</p>-->
 </form>
 
-<div id="allSchema">
+<div id="allSchema" >
     <ul id="ul1">
         <li id="headCode" >Kurskod</li>
         <li id="headName">kursnamn</li>
