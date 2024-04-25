@@ -1,0 +1,44 @@
+
+#errorDiv {
+    position: relative;
+    width: 100vw;
+    
+    #errorText{
+        z-index: 1;
+        text-align: center;
+        position: relative;
+        p{
+            font-weight: 900;
+            font-size: 180%;
+            color: aliceblue;
+            text-decoration: underline;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000;
+        }
+
+        
+    }
+
+    #imageError404{
+        margin: 0 auto;
+        position: relative;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            position: relative;
+            z-index: -1;
+            object-position: center;
+            width: fit-content;
+            height: 50vh;
+            border: 1px solid aliceblue;
+            border-radius: 10px;
+            
+        
+        }
+        
+    }
+    
+}
+
