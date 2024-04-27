@@ -76,6 +76,10 @@ sortSearch(): void { //funktion för söka
     ||
     ramschema.progression.toLowerCase().includes(searchLow)//kollar progression 
     
-  ) } 
+  ) } else{ //else
+    this.sortedList=this.ramschemaList; // så den bblir hela listan om sökrutan är tom. 
+  }
+  
+}};
 
-}}
+
