@@ -1,5 +1,5 @@
 header{
-    background-image: url(/assets/images/backheaderfooter.jpg);
+    background-image: url(/assets/images/back2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,11 +8,12 @@ header{
     margin-top: -3vh;
     margin-left: -3vw;
     position: relative;
+    border-bottom: 1px solid rgb(0, 0, 0);
     h1{
         padding-top: 2.5vh;
        text-align: center;
-        color: white;
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000;
+        color: rgb(0, 0, 0);
+        text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px  1px 0 #ffffff, 1px  1px 0 #ffffff;
     }
 }
 
@@ -20,7 +21,7 @@ header{
 @media screen and (max-width: 1023px) {
 
     header{
-        background-image: url(/assets/images/backheaderfooter.jpg);
+        background-image: url(/assets/images/back2.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -33,8 +34,8 @@ header{
             padding-top: 2.5vh;
             font-size: 140%;
            text-align: center;
-            color: white;
-            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000;
+           color: rgb(0, 0, 0);
+           text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px  1px 0 #ffffff, 1px  1px 0 #ffffff;
         }
     }
 

@@ -3,7 +3,7 @@ footer {
     height: 8vh;
     margin-left: -3vw;
     margin-bottom: -2.5vh;
-    background-image: url(/assets/images/backheaderfooter.jpg);
+    background-image: url(/assets/images/back2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,8 +18,9 @@ footer {
     }
     a{
         
-        color: white;
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000;
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+        text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px  1px 0 #ffffff, 1px  1px 0 #ffffff;
     }
     a:hover{
         color: orange;
@@ -35,7 +36,7 @@ footer {
         height: 8vh;
         margin-left: -3vw;
         margin-bottom: -1vh;
-        background-image: url(/assets/images/backheaderfooter.jpg);
+        background-image: url(/assets/images/back2.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -43,6 +44,7 @@ footer {
         position: fixed;
         left: 0;
         border-top: 1px solid black;
+        
         p{
             text-align: center;
             position: relative;
@@ -50,8 +52,8 @@ footer {
         }
         a{
             
-            color: white;
-            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000;
+            color: rgb(0, 0, 0);
+           text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px  1px 0 #ffffff, 1px  1px 0 #ffffff;
             font-size: 70%;
         }
         a:hover{
