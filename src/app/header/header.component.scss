@@ -1,5 +1,5 @@
 header{
-    background-image: url(/assets/images/back2.jpg);
+    //background-image: url(/assets/images/back6.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,9 +8,10 @@ header{
     margin-top: -3vh;
     margin-left: -3vw;
     position: relative;
-    border-bottom: 1px solid rgb(0, 0, 0);
+    //border-bottom: 1px solid rgb(255, 255, 255);
     h1{
         padding-top: 2.5vh;
+        text-decoration: underline;
        text-align: center;
         color: rgb(0, 0, 0);
         text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px  1px 0 #ffffff, 1px  1px 0 #ffffff;
@@ -21,7 +22,7 @@ header{
 @media screen and (max-width: 1023px) {
 
     header{
-        background-image: url(/assets/images/back2.jpg);
+        //background-image: url(/assets/images/back3.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -32,6 +33,7 @@ header{
         position: relative;
         h1{
             padding-top: 2.5vh;
+            text-decoration: underline;
             font-size: 140%;
            text-align: center;
            color: rgb(0, 0, 0);

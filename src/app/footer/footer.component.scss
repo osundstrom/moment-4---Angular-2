@@ -3,7 +3,7 @@ footer {
     height: 8vh;
     margin-left: -3vw;
     margin-bottom: -2.5vh;
-    background-image: url(/assets/images/back2.jpg);
+    background-image: url(/assets/images/backheaderfooter.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,12 +18,12 @@ footer {
     }
     a{
         
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         font-weight: 600;
-        text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px  1px 0 #ffffff, 1px  1px 0 #ffffff;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000;
     }
     a:hover{
-        color: orange;
+        color: rgb(0, 25, 253);
 
     }
 }
@@ -36,7 +36,7 @@ footer {
         height: 8vh;
         margin-left: -3vw;
         margin-bottom: -1vh;
-        background-image: url(/assets/images/back2.jpg);
+        background-image: url(/assets/images/backheaderfooter.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -52,12 +52,12 @@ footer {
         }
         a{
             
-            color: rgb(0, 0, 0);
-           text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px  1px 0 #ffffff, 1px  1px 0 #ffffff;
+            color: rgb(255, 255, 255);
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000;
             font-size: 70%;
         }
         a:hover{
-            color: orange;
+            color: rgb(0, 25, 253);
             
         }
     }
